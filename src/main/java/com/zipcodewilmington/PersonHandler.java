@@ -6,19 +6,7 @@ import java.util.Arrays;
  * Created by leon on 1/24/18.
  */
 public class PersonHandler {
-    public static void main(String[] args) {
 
-
-        Person person1 = new Person("Leon", "Hunter");
-        Person person2 = new Person("Tariq", "Hook");
-        Person person3 = new Person("Dolio", "Durant");
-        Person person4 = new Person("JR", "Gamboa");
-
-        Person[] personArray = {person1, person2, person3, person4};
-
-        System.out.println(Arrays.toString(personArray));
-
-    }
 
     private final Person[] personArray;
 
